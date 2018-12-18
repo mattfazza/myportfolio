@@ -9,7 +9,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="/Users/MattFazza/PersonalProjects/Angular/React-Trainning/myportfolio/img/linkedin.jpg.sb-b77734d5-DlUrmh"
+                            src={require("/Users/MattFazza/PersonalProjects/Angular/React-Trainning/myportfolio/src/img/linkedin.png")}
                             alt="avatar"
                             className="avatar-img"
                         />
@@ -21,9 +21,15 @@ class LandingPage extends Component {
 
                             <p>Mongo | Express | React | Node </p>
 
+                            {/* LinkedIn */}
                             <div className="socialLinks">
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linked-square" area-hidden="true" />
+                                <a href="https://www.linkedin.com/in/mattfazza" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-linkedin-square" area-hidden="true" />
+                                </a>
+
+                            {/* Github */}
+                                <a href="http://www.github.com/mattfazza" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" area-hidden="true" />
                                 </a>
                             </div>
                         </div>
