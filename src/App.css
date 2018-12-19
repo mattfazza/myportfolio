@@ -17,6 +17,10 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   height: 100%;
 }
 
+.projects-grid {
+  display: flex;
+}
+
 /* Contact page */
 
 .avatar-img {
@@ -61,4 +65,49 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   color: white;
   font-size: 3em;
   padding: 8px;
+}
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+  justify-content: center;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 35px;
+  padding-right: 2em;
+
+}
+
+.resume-right-col {
+  background: #27221f;
+  color: black;
 }
