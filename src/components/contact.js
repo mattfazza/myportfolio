@@ -10,7 +10,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Matt Fazza</h2>
                         <img 
-                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
+                        src={require("/Users/MattFazza/PersonalProjects/Angular/React-Trainning/myportfolio/src/img/linkedin.png")} 
                         alt="avatar"
                         style={{height: '250px'}}
                         />
