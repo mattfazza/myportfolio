@@ -6,10 +6,11 @@ class LandingPage extends Component {
     render(){
         return(
             <div style={{ width: "100%", margin: "auto"}}>
+            {/* <img src={require("/Users/MattFazza/PersonalProjects/Angular/React-Trainning/myportfolio/src/img/culturalCenter.jpg")} className="bgd-img"/> */}
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src={require("/Users/MattFazza/PersonalProjects/Angular/React-Trainning/myportfolio/src/img/linkedin.png")}
+                            src={require("../img/linkedin.png")}
                             alt="avatar"
                             className="avatar-img"
                         />

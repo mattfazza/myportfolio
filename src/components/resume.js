@@ -13,7 +13,7 @@ class Resume extends Component {
                     <Cell  className="resume-left-col" col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                            src={require("/Users/MattFazza/PersonalProjects/Angular/React-Trainning/myportfolio/src/img/linkedin.png")}
+                            src={require("../img/linkedin.png")}
                             alt="avatar"
                             style={{height: '200px'}}
                             />
